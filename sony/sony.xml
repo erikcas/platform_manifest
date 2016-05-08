@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="git://github.com/SonyAosp/" 
+           review="gerrit.sonyaosp.org"/> />
+
+  <remote name="ghub" fetch="git://github.com/erikcas/" />
+
+  <remote  name="sony"
+           fetch="git://github.com/sonyxperiadev/" />
+
+  <project path="build" name="platform_build" groups="pdk" remote="github" revision="mm-6.0" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <project path="device/qcom/sepolicy" name="device-qcom-sepolicy" groups="device" remote="github" revision="mm-6.0" />
+  <project path="device/sony/common" name="device-sony-common" groups="device" remote="github" revision="mm-6.0" />
+
+  <project path="device/sony/kanuti" name="device-sony-kanuti" groups="device" remote="github" revision="mm-6.0" />
+  <project path="device/sony/tulip" name="device-sony-tulip" groups="device" remote="github" revision="mm-6.0" />
+
+  <project path="device/sony/kitakami" name="device-sony-kitakami" groups="device" remote="github" revision="mm-6.0" />
+  <project path="device/sony/ivy" name="device-sony-ivy" groups="device" remote="github" revision="mm-6.0" />
+  <project path="device/sony/karin" name="device-sony-karin" groups="device" remote="github" revision="mm-6.0" />
+  <project path="device/sony/karin_windy" name="device-sony-karin_windy" groups="device" remote="github" revision="mm-6.0" />
+  <project path="device/sony/suzuran" name="device-sony-suzuran" groups="device" remote="github" revision="mm-6.0" />
+  <project path="device/sony/sumire" name="device-sony-sumire" groups="device" remote="github" revision="mm-6.0" />
+  <project path="device/sony/satsuki" name="device-sony-satsuki" groups="device" remote="github" revision="mm-6.0" />
+
+  <project path="device/sony/rhine" name="device-sony-rhine" groups="device" remote="github" revision="mm-6.0" />
+  <project path="device/sony/togari" name="device-sony-togari" groups="device" remote="github" revision="mm-6.0" />
+  <project path="device/sony/amami" name="device-sony-amami" groups="device" remote="github" revision="mm-6.0" />
+  <project path="device/sony/honami" name="device-sony-honami" groups="device" remote="github" revision="mm-6.0" />
+
+  <project path="device/sony/shinano" name="device-sony-shinano" groups="device" remote="github" revision="mm-6.0" />
+  <project path="device/sony/sirius" name="device-sony-sirius" groups="device" remote="github" revision="mm-6.0" />
+  <project path="device/sony/castor" name="device-sony-castor" groups="device" remote="github" revision="mm-6.0" />
+  <project path="device/sony/castor_windy" name="device-sony-castor_windy" groups="device" remote="github" revision="mm-6.0" />
+  <project path="device/sony/aries" name="device-sony-aries" groups="device" remote="github" revision="mm-6.0" />
+  <project path="device/sony/leo" name="device-sony-leo" groups="device" remote="github" revision="mm-6.0" />
+  <project path="device/sony/scorpion" name="device-sony-scorpion" groups="device" remote="github" revision="mm-6.0" />
+  <project path="device/sony/scorpion_windy" name="device-sony-scorpion_windy" groups="device" remote="github" revision="mm-6.0" />
+
+  <project path="device/sony/yukon" name="device-sony-yukon" groups="device" remote="github" revision="mm-6.0" />
+  <project path="device/sony/flamingo" name="device-sony-flamingo" groups="device" remote="github" revision="mm-6.0" />
+  <project path="device/sony/eagle" name="device-sony-eagle" groups="device" remote="github" revision="mm-6.0" />
+  <project path="device/sony/tianchi" name="device-sony-tianchi" groups="device" remote="github" revision="mm-6.0" />
+  <project path="device/sony/seagull" name="device-sony-seagull" groups="device" remote="github" revision="mm-6.0" />
+
+  <project path="external/libnfc-nci" name="platform_external_libnfc-nci" groups="pdk" remote="github" revision="mm-6.0" />
+
+  <project path="hardware/broadcom/libbt" name="platform_hardware_broadcom_libbt" groups="pdk" remote="github" revision="mm-6.0" />
+  <project path="hardware/qcom/audio" name="platform_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="mm-6.0" />
+  <project path="hardware/qcom/camera" name="camera" groups="qcom" remote="github" revision="mm-6.0" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="ghub" revision="LA.BR.1.3.3" />
+  <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" groups="qcom,qcom_gps" remote="github" revision="mm-6.0" />
+  <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="github" revision="mm-6.0" />
+  <project path="hardware/qcom/media" name="platform_hardware_qcom_media" groups="qcom" remote="github" revision="mm-6.0" />
+
+  <project path="hardware/sony/thermanager" name="thermanager" groups="device" remote="sony" revision="master" />
+  <project path="hardware/sony/mkqcdtbootimg" name="mkqcdtbootimg" groups="device" remote="sony" revision="master" />
+  <project path="hardware/sony/timekeep" name="timekeep" groups="device" remote="sony" revision="master" />
+  <project path="hardware/sony/macaddrsetup" name="macaddrsetup" groups="device" remote="sony" revision="master" />
+
+  <project path="kernel/sony/msm" name="kernel" groups="device" remote="github" revision="mm-6.0" />
+
+  <project path="packages/apps/DeskClock" name="platform_packages_apps_DeskClock" groups="pdk-fs" remote="github" revision="mm-6.0" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" groups="pdk-fs" remote="github" revision="mm-6.0" />
+  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="github" revision="mm-6.0" />
+
+  <project path="vendor/google" name="platform_vendor_google" groups="device" remote="github" revision="mm-6.0" />
+  <project path="vendor/qcom" name="platform_vendor_qcom" groups="device" remote="github" revision="mm-6.0" />
+  <project path="vendor/qcom/proprietary" name="platform_vendor_qcom_proprietary" groups="device" remote="github" revision="mm-6.0" />
+  <project path="vendor/qcom/opensource/dataservices" name="vendor-qcom-opensource-dataservices" groups="device" remote="github" revision="mm-6.0" />
+  <project path="vendor/sony" name="platform_vendor_sony" groups="device" remote="github" revision="mm-6.0" />
+
+</manifest>
