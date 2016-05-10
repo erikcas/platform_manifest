@@ -28,7 +28,7 @@
   <project path="device/sony/sumire" name="device-sony-sumire" groups="device" remote="github" revision="mm-6.0" />
   <project path="device/sony/satsuki" name="device-sony-satsuki" groups="device" remote="github" revision="mm-6.0" />
 
-  <project path="device/sony/rhine" name="device-sony-rhine" groups="device" remote="github" revision="mm-6.0" />
+  <project path="device/sony/rhine" name="device-sony-rhine" groups="device" remote="github" revision="mm-6.0-dev" />
   <project path="device/sony/togari" name="device-sony-togari" groups="device" remote="github" revision="mm-6.0" />
   <project path="device/sony/amami" name="device-sony-amami" groups="device" remote="github" revision="mm-6.0" />
   <project path="device/sony/honami" name="device-sony-honami" groups="device" remote="github" revision="mm-6.0" />
