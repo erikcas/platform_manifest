@@ -18,6 +18,10 @@
   <remove-project name="device/moto/shamu" />
   <remove-project name="device/moto/shamu-kernel" clone-depth="1" />
   <remove-project name="platform/external/libnfc-nci" />
+  <remove-project name="platform/external/tinyalsa" />
+  <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/hardware/broadcom/libbt" />
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/camera" />
@@ -30,7 +34,13 @@
   <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/Exchange" />
+  <remove-project name="platform/packages/apps/InCallUI" />
   <remove-project name="platform/packages/apps/Music" />
   <remove-project name="platform/packages/apps/Nfc" />
+  <remove-project name="platform/packages/apps/PackageInstaller" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
+  <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
+  <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/extras" />
 </manifest>

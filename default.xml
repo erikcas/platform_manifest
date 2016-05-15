@@ -479,7 +479,8 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-  <include name="sony/remove_stuff.xml" />
-  <include name="sony/sony.xml" />
+  <include name="sonyaosp/remove.xml" />
+  <include name="sonyaosp/sony.xml" />
+  <include name="sonyaosp/aosp.xml" />
 
 </manifest>

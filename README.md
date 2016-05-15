@@ -59,6 +59,13 @@ a large change that spans across multiple projects.
 $ repo sync PROJECT
 ```
 
+## AOSP Tag ##
+
+```bash
+# Actual tag used from AOSP
+$ android-6.0.1_r43
+```
+
 ## Building ##
 
 ```bash
@@ -67,9 +74,7 @@ $ cd WORKSPACE
 # ...and run to prepare our devices list.
 $ . build/envsetup.sh
 # ...choose your device by picking a combo
-$ lunch
-# ... now run after the combo picked
-$ brunch "your device name"
+$ lunch aosp_device-userdebug
 # ... start your build
 $ make bacon -jX
 ```
