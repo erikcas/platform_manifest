@@ -17,7 +17,9 @@
   <remove-project name="device/lge/hammerhead-kernel" clone-depth="1" />
   <remove-project name="device/moto/shamu" />
   <remove-project name="device/moto/shamu-kernel" clone-depth="1" />
+  <remove-project name="platform/external/guava" />
   <remove-project name="platform/external/libnfc-nci" />
+  <remove-project name="platform/external/sepolicy" />
   <remove-project name="platform/external/tinyalsa" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/frameworks/av" />
@@ -30,16 +32,16 @@
   <remove-project name="platform/hardware/qcom/keymaster" />
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/packages/apps/Browser" />
+  <remove-project name="platform/packages/apps/Calculator" />
   <remove-project name="platform/packages/apps/Calendar" />
+  <remove-project name="platform/packages/apps/CellBroadcastReceiver" />
   <remove-project name="platform/packages/apps/DeskClock" />
-  <remove-project name="platform/packages/apps/Dialer" />
-  <remove-project name="platform/packages/apps/Exchange" />
-  <remove-project name="platform/packages/apps/InCallUI" />
   <remove-project name="platform/packages/apps/Music" />
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
